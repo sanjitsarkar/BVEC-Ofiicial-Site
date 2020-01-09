@@ -1,0 +1,198 @@
+@import url("fonts.css");
+@import url("font-awesome/css/font-awesome.min.css");
+*, html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: #e2dfdf;
+  width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 25vh;
+  width: 100%;
+}
+
+header .top_header {
+  padding: 10px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #ffff;
+  color: #0071c5;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .top_header .logo_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-left: 15px;
+}
+
+header .top_header .logo_wrapper .logo {
+  background: url(/img/logo/logo_bvec.jpg);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  margin-right: 15px;
+}
+
+header .top_header .logo_wrapper .site h1.site_name {
+  font-size: 18px;
+}
+
+header .top_header .logo_wrapper .site h3.slogan {
+  font-size: 12px;
+  opacity: .8;
+}
+
+header .top_header .search_box {
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+}
+
+header .top_header .search_box form {
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.247);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.247);
+}
+
+header .top_header .search_box form input[type="text"] {
+  padding: 8px 10px;
+  background-color: #0070c56e;
+  width: 85%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+header .top_header .search_box form input[type="text"]::-webkit-input-placeholder {
+  color: #0071c5;
+}
+
+header .top_header .search_box form input[type="text"]:-ms-input-placeholder {
+  color: #0071c5;
+}
+
+header .top_header .search_box form input[type="text"]::-ms-input-placeholder {
+  color: #0071c5;
+}
+
+header .top_header .search_box form input[type="text"]::placeholder {
+  color: #0071c5;
+}
+
+header .top_header .search_box form button {
+  cursor: pointer;
+  width: 15%;
+  padding: 8px 10px;
+  background-color: #0071c5;
+  border: none;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+header .top_header .search_box form button i {
+  color: #ffff;
+  font-size: 18px;
+}
+
+header .top_header .right_nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .top_header .right_nav ul li {
+  padding: 8px 10px;
+  border: 1px solid #0071c5;
+  margin-left: 10px;
+  background-color: transparent;
+  border-radius: 5px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  color: #0071c5;
+  list-style: none;
+}
+
+header .top_header .right_nav ul li a {
+  text-decoration: none;
+  color: #0071c5;
+  font-weight: bolder;
+}
+
+header .top_header .right_nav ul li:hover {
+  background-color: #0071c5;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+header .top_header .right_nav ul li:hover > a {
+  color: #ffff;
+}
+
+header .bottom_header {
+  background: #0071c5;
+}
+
+header .bottom_header ul {
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .bottom_header ul > * {
+  margin-left: 40px;
+  font-size: 20px;
+}
+
+header .bottom_header ul li {
+  list-style: none;
+  padding: 2.1vh 10px;
+}
+
+header .bottom_header ul li.active {
+  border-bottom: 2px solid #ffff;
+}
+
+header .bottom_header ul li a {
+  text-decoration: none;
+  color: #ffff;
+}
+/*# sourceMappingURL=style.css.map */
